@@ -111,7 +111,29 @@ h1{
     border: 2px solid black;
 }
 
+.ci{
+    position: absolute;
+    display: block;
+    width: 20%;
+    font-size: 16px;
+    background-color: blue;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all .3s ease;
+    margin-top: 17px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding-bottom: 15px;
+    top: 70%;
+    left: 74%;
+}
+
 .si:hover{
+    background-color: darkblue;
+}
+
+.ci:hover{
     background-color: darkblue;
 }
 
